@@ -19,10 +19,10 @@
     
 }
 
-@media screen and (min-width:375px) and (max-width:1440px) {
+@media screen and (min-width:100px) and (max-width:375px) {
 
     div{
-        min-width: 375px;
+       max-width: 375px;
     }
     
 }
