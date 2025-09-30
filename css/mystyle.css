@@ -2,19 +2,35 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 
 
-body {
-  max-width: 1440px;   /* عرض الموقع للـ desktop */
-  margin: 0 auto;      /* عشان يبقى في النص */
-  background-color: hsl(30, 54%, 90%)
+@media screen and (min-width:375px) and (max-width:1440px) {
+
+
+    body{
+        background-color: hsl(30, 54%, 90%);
+    }
+    
 }
 
-/* القاعدة للموبايل */
-@media (max-width: 767px) {
-  body {
-    max-width: 375px;  /* عرض الموقع للـ phone */
-  }
-}
+@media  screen and (min-width:0px) and (max-width:375px) {
+
+    body{
+        background-color: white;
+    }
     
+}
+
+@media screen and (min-width:375px) and (max-width:1440px) {
+
+    div{
+        min-width: 375px;
+    }
+    
+}
+
+
+/* body{
+    background-color: hsl(30, 54%, 90%);
+} */
     div{
       
         width: 60%;
